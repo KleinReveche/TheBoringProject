@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.kleinreveche'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven {
+        url = uri('http://repo.maven.apache.org/maven2')
+    }
+}
+
+dependencies {
+}
